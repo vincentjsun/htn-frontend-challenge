@@ -21,7 +21,7 @@ function Login() {
     e.preventDefault();
     if (username === "hacker" && password === "htn2025") {
       login();
-      navigate("/events");
+      navigate("/");
     } else {
       setError(true);
       setPassword("");

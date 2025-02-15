@@ -10,7 +10,7 @@ import {
   StyledAppBar,
 } from "./NavBar.styles";
 
-const pages = [{ name: "Events", path: "/events" }];
+const pages = [{ name: "Events", path: "/" }];
 
 const NavBar = () => {
   const { isLoggedIn, logout } = useAuth();
@@ -18,7 +18,7 @@ const NavBar = () => {
 
   const handleSignOut = () => {
     logout();
-    navigate("/");
+    navigate("/login");
   };
 
   return (
