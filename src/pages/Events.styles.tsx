@@ -83,7 +83,7 @@ export const PageTitle: React.FC<StandardTypographyProps> = ({
     variant="h3"
     component="h1"
     sx={{
-      fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+      fontFamily: '"Helvetica Neue", Helvetica, Arial',
       fontWeight: 600,
       background: "linear-gradient(90deg, #ff4d4d 0%, #ff8533 100%)",
       WebkitBackgroundClip: "text",
@@ -112,7 +112,7 @@ export const SearchField: React.FC<SearchFieldProps> = ({
     onChange={onChange}
     sx={{
       "& .MuiInputBase-root": {
-        fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+        fontFamily: '"Helvetica Neue", Helvetica, Arial',
         color: "black",
       },
       "& .MuiOutlinedInput-root": {
@@ -206,7 +206,7 @@ export const StyledFilterSelect: React.FC<FilterSelectProps> = ({
     sx={{
       minWidth: 120,
       "& .MuiSelect-select": {
-        fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+        fontFamily: '"Helvetica Neue", Helvetica, Arial',
         color: "black",
       },
       "& .MuiOutlinedInput-notchedOutline": {
@@ -235,7 +235,7 @@ export const StyledResetButton: React.FC<ResetButtonProps> = ({
     variant="contained"
     sx={{
       backgroundColor: "#ff4d4d",
-      fontFamily: "Helvetica, Arial, sans-serif",
+      fontFamily: "Helvetica, Arial",
       fontSize: "1rem",
       color: "white",
       textTransform: "none",

@@ -28,7 +28,7 @@ export const CardTitle: React.FC<StandardTypographyProps> = ({
     variant="h5"
     component="h2"
     sx={{
-      fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+      fontFamily: '"Helvetica Neue", Helvetica, Arial',
       fontWeight: 500,
       display: "block",
       width: "100%",
@@ -56,7 +56,7 @@ export const CardTime: React.FC<StandardTypographyProps> = ({
   <Typography
     variant="body1"
     sx={{
-      fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+      fontFamily: '"Helvetica Neue", Helvetica, Arial',
       lineHeight: 1.6,
       marginBottom: 2,
       ...props.sx,
@@ -74,7 +74,7 @@ export const CardDescription: React.FC<StandardTypographyProps> = ({
   <Typography
     variant="body1"
     sx={{
-      fontFamily: "Helvetica Neue",
+      fontFamily: '"Helvetica Neue", Helvetica, Arial',
       lineHeight: 1.6,
       overflow: "hidden",
       textOverflow: "ellipsis",

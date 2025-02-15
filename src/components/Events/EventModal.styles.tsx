@@ -59,7 +59,7 @@ export const ModalTitle: React.FC<StandardTypographyProps> = ({
     variant="h4"
     component="h1"
     sx={{
-      fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+      fontFamily: '"Helvetica Neue", Helvetica, Arial',
       fontWeight: 500,
       marginBottom: 1,
       ...props.sx,
@@ -78,7 +78,7 @@ export const ModalDateTime: React.FC<StandardTypographyProps> = ({
     variant="h6"
     component="h2"
     sx={{
-      fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+      fontFamily: '"Helvetica Neue", Helvetica, Arial',
       fontWeight: 400,
       color: "text.secondary",
       display: "inline",
@@ -97,7 +97,7 @@ export const SectionLabel: React.FC<StandardTypographyProps> = ({
   <Typography
     variant="body1"
     sx={{
-      fontFamily: "Helvetica Neue",
+      fontFamily: '"Helvetica Neue", Helvetica, Arial',
       fontWeight: "bold",
       display: "inline",
       ...props.sx,
@@ -115,7 +115,7 @@ export const SectionContent: React.FC<StandardTypographyProps> = ({
   <Typography
     variant="body1"
     sx={{
-      fontFamily: "Helvetica Neue",
+      fontFamily: '"Helvetica Neue", Helvetica, Arial',
       display: "inline",
       "& .event-link": {
         color: "#3f7ac2",
@@ -182,7 +182,7 @@ export const ActionButton: React.FC<ActionButtonProps> = ({
   <Button
     variant="contained"
     sx={{
-      fontFamily: "Helvetica, Arial, sans-serif",
+      fontFamily: "Helvetica, Arial",
       fontSize: "1rem",
       textTransform: "none",
       background: "#42A5F5",
