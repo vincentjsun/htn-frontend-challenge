@@ -129,7 +129,7 @@ export const StyledCard: React.FC<StyledCardProps> = ({
 }) => (
   <Card
     sx={{
-      width: 350,
+      width: 315,
       p: 2,
       cursor: "pointer",
       backgroundColor: "#fffff2",
